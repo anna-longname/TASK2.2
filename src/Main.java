@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 200;
-        int sum = 1000;
+        int sum = 1100;
         int bonus;
-        {
 
-            if (sum >= 1000) {
+
+            if (sum > 1000) {
 
                 bonus = sum / 100;
             } else {
@@ -15,7 +15,7 @@ public class Main {
 
             }
             System.out.println(bonus);
-        }
+
         int result = amount + sum + bonus;
         System.out.println(result);
     }
