@@ -7,14 +7,14 @@ public class Main {
         int bonus;
 
 
-            if (sum > 1000) {
+        if (sum > 1000) {
 
-                bonus = sum / 100;
-            } else {
-                bonus = 0;
+            bonus = sum / 100;
+        } else {
+            bonus = 0;
 
-            }
-            System.out.println(bonus);
+        }
+        System.out.println(bonus);
 
         int result = amount + sum + bonus;
         System.out.println(result);
